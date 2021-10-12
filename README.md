@@ -15,7 +15,7 @@ GAN을 이용하여 가짜 지정맥 이미지 생성하기
 
     - parameters
 
-       1. epoch : 200 
+       1. epoch : 50 
 
        2. batch size : 81
 
@@ -33,4 +33,4 @@ GAN을 이용하여 가짜 지정맥 이미지 생성하기
 
 실제 지정맥 test이미지를 활용하여 trained generator가 생성한 fake 지정맥 이미지
 
-
+![image](https://user-images.githubusercontent.com/66320010/136963195-d6651d56-70fc-4b80-bfff-adc423cb1a54.png)
