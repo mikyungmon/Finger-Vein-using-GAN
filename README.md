@@ -4,7 +4,7 @@ GAN을 이용하여 가짜 지정맥 이미지 생성하기
 ### ✅ 과정 ###
 
 1. 20명의 실제 지정맥 영상을 frame capture ( 한명당 4개의 영상 )
-2. train, validation, test 데이터를 6:2:2 비율로 분할 
+2. train, validation, test 데이터를 6:2:2 비율로 분할 (train : 23844, validation : 7723, test : 7785 )
 3. capture image size를 640 * 480 -> 64 * 64로 resize
 4. 모델 훈련
 5. 학습된 모델 중 generator(생성자)를 통해 생성된 fake 지정맥 이미지 확인
@@ -28,5 +28,9 @@ GAN을 이용하여 가짜 지정맥 이미지 생성하기
     - 구조
 
 ![image](https://user-images.githubusercontent.com/66320010/136953860-54f6c87b-7597-4a38-9716-c4a457295c3c.png)
+
+### ✅ 결과 이미지 ###
+
+실제 지정맥 test이미지를 활용하여 trained generator가 생성한 fake 지정맥 이미지
 
 
